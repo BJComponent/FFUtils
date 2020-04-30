@@ -23,6 +23,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A435D84A245AD04B0059FA1B /* UIView+FFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D840245AD04B0059FA1B /* UIView+FFFrame.m */; };
+		A435D84B245AD04B0059FA1B /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D841245AD04B0059FA1B /* UILabel+Extension.m */; };
+		A435D84C245AD04B0059FA1B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D842245AD04B0059FA1B /* UIColor+Hex.m */; };
+		A435D84D245AD04B0059FA1B /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D848245AD04B0059FA1B /* UIButton+Extension.m */; };
+		A435D84E245AD04B0059FA1B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D849245AD04B0059FA1B /* NSArray+Log.m */; };
 		E616413BEBD54B343C082F79 /* Pods_FFUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775DAE56B66E3061E5F7D230 /* Pods_FFUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0517D8B3E6FC396CC70413E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0517D8B3E6FC396CC70413E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		062B9C02CF4049DC93259B90 /* Pods-FFUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFUtils_Tests/Pods-FFUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		105752AC02A18838DAA9F33E /* Pods_FFUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FFUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +65,23 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61678856E172F6BD370FC95E /* Pods-FFUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-FFUtils_Example/Pods-FFUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6A3463A1CAC68450854D2EC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A3463A1CAC68450854D2EC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775DAE56B66E3061E5F7D230 /* Pods_FFUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97D7BB2FEB9254AA117EB295 /* Pods-FFUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFUtils_Example/Pods-FFUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1287785DA4CF8338273574F /* FFUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFUtils.podspec; path = ../FFUtils.podspec; sourceTree = "<group>"; };
+		A435D840245AD04B0059FA1B /* UIView+FFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFrame.m"; sourceTree = "<group>"; };
+		A435D841245AD04B0059FA1B /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		A435D842245AD04B0059FA1B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A435D843245AD04B0059FA1B /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		A435D844245AD04B0059FA1B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		A435D845245AD04B0059FA1B /* UIView+FFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFFrame.h"; sourceTree = "<group>"; };
+		A435D846245AD04B0059FA1B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A435D847245AD04B0059FA1B /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		A435D848245AD04B0059FA1B /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		A435D849245AD04B0059FA1B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		A435D852245AD14D0059FA1B /* FFUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFUtils.h; sourceTree = "<group>"; };
+		B1287785DA4CF8338273574F /* FFUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFUtils.podspec; path = ../FFUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEBB4D3F2E5529EDC4FD7AED /* Pods-FFUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFUtils_Tests/Pods-FFUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +114,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A435D836245ACFAC0059FA1B /* FFUtils */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FFUtils */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -185,6 +202,49 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A435D836245ACFAC0059FA1B /* FFUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A435D837245ACFAC0059FA1B /* Classes */,
+				A435D83A245ACFAC0059FA1B /* Assets */,
+			);
+			name = FFUtils;
+			path = ../FFUtils;
+			sourceTree = "<group>";
+		};
+		A435D837245ACFAC0059FA1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A435D852245AD14D0059FA1B /* FFUtils.h */,
+				A435D83F245AD04B0059FA1B /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A435D83A245ACFAC0059FA1B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A435D83F245AD04B0059FA1B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A435D845245AD04B0059FA1B /* UIView+FFFrame.h */,
+				A435D840245AD04B0059FA1B /* UIView+FFFrame.m */,
+				A435D843245AD04B0059FA1B /* UIButton+Extension.h */,
+				A435D848245AD04B0059FA1B /* UIButton+Extension.m */,
+				A435D847245AD04B0059FA1B /* UILabel+Extension.h */,
+				A435D841245AD04B0059FA1B /* UILabel+Extension.m */,
+				A435D846245AD04B0059FA1B /* UIColor+Hex.h */,
+				A435D842245AD04B0059FA1B /* UIColor+Hex.m */,
+				A435D844245AD04B0059FA1B /* NSArray+Log.h */,
+				A435D849245AD04B0059FA1B /* NSArray+Log.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		EF340E2A34B5DB4FB36C6B59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +253,6 @@
 				062B9C02CF4049DC93259B90 /* Pods-FFUtils_Tests.debug.xcconfig */,
 				EEBB4D3F2E5529EDC4FD7AED /* Pods-FFUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,7 +425,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
+				A435D84C245AD04B0059FA1B /* UIColor+Hex.m in Sources */,
+				A435D84D245AD04B0059FA1B /* UIButton+Extension.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
+				A435D84A245AD04B0059FA1B /* UIView+FFFrame.m in Sources */,
+				A435D84E245AD04B0059FA1B /* NSArray+Log.m in Sources */,
+				A435D84B245AD04B0059FA1B /* UILabel+Extension.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
