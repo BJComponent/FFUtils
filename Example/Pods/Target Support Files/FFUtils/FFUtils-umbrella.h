@@ -15,6 +15,7 @@
 #import "UIColor+Hex.h"
 #import "UILabel+Extension.h"
 #import "UIView+FFFrame.h"
+#import "FFConst.h"
 #import "FFUtils.h"
 
 FOUNDATION_EXPORT double FFUtilsVersionNumber;
