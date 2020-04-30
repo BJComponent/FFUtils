@@ -17,6 +17,8 @@
 #import "UIView+FFFrame.h"
 #import "FFConst.h"
 #import "FFUtils.h"
+#import "FFAuthorListReformerKeys.h"
+#import "FFSpecialListReformerKeys.h"
 #import "FFHelper.h"
 
 FOUNDATION_EXPORT double FFUtilsVersionNumber;

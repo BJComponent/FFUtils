@@ -30,6 +30,8 @@
 		A435D84E245AD04B0059FA1B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D849245AD04B0059FA1B /* NSArray+Log.m */; };
 		A435D856245AD3EF0059FA1B /* FFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D854245AD3EF0059FA1B /* FFConst.m */; };
 		A435D85A245AD6280059FA1B /* FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D858245AD6280059FA1B /* FFHelper.m */; };
+		A435D872245ADD490059FA1B /* FFAuthorListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D86E245ADD490059FA1B /* FFAuthorListReformerKeys.m */; };
+		A435D873245ADD490059FA1B /* FFSpecialListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D871245ADD490059FA1B /* FFSpecialListReformerKeys.m */; };
 		E616413BEBD54B343C082F79 /* Pods_FFUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775DAE56B66E3061E5F7D230 /* Pods_FFUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,10 @@
 		A435D855245AD3EF0059FA1B /* FFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFConst.h; sourceTree = "<group>"; };
 		A435D858245AD6280059FA1B /* FFHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHelper.m; sourceTree = "<group>"; };
 		A435D859245AD6280059FA1B /* FFHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHelper.h; sourceTree = "<group>"; };
+		A435D86E245ADD490059FA1B /* FFAuthorListReformerKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorListReformerKeys.m; sourceTree = "<group>"; };
+		A435D86F245ADD490059FA1B /* FFSpecialListReformerKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSpecialListReformerKeys.h; sourceTree = "<group>"; };
+		A435D870245ADD490059FA1B /* FFAuthorListReformerKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorListReformerKeys.h; sourceTree = "<group>"; };
+		A435D871245ADD490059FA1B /* FFSpecialListReformerKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSpecialListReformerKeys.m; sourceTree = "<group>"; };
 		B1287785DA4CF8338273574F /* FFUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFUtils.podspec; path = ../FFUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEBB4D3F2E5529EDC4FD7AED /* Pods-FFUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFUtils_Tests/Pods-FFUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,6 +231,7 @@
 				A435D83F245AD04B0059FA1B /* Category */,
 				A435D853245AD3EF0059FA1B /* Configs */,
 				A435D857245AD6280059FA1B /* Tools */,
+				A435D86D245ADD490059FA1B /* ReformerKeys */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -269,6 +276,17 @@
 				A435D858245AD6280059FA1B /* FFHelper.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		A435D86D245ADD490059FA1B /* ReformerKeys */ = {
+			isa = PBXGroup;
+			children = (
+				A435D870245ADD490059FA1B /* FFAuthorListReformerKeys.h */,
+				A435D86E245ADD490059FA1B /* FFAuthorListReformerKeys.m */,
+				A435D86F245ADD490059FA1B /* FFSpecialListReformerKeys.h */,
+				A435D871245ADD490059FA1B /* FFSpecialListReformerKeys.m */,
+			);
+			path = ReformerKeys;
 			sourceTree = "<group>";
 		};
 		EF340E2A34B5DB4FB36C6B59 /* Pods */ = {
@@ -451,11 +469,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
+				A435D873245ADD490059FA1B /* FFSpecialListReformerKeys.m in Sources */,
 				A435D84C245AD04B0059FA1B /* UIColor+Hex.m in Sources */,
 				A435D84D245AD04B0059FA1B /* UIButton+Extension.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
 				A435D84A245AD04B0059FA1B /* UIView+FFFrame.m in Sources */,
 				A435D85A245AD6280059FA1B /* FFHelper.m in Sources */,
+				A435D872245ADD490059FA1B /* FFAuthorListReformerKeys.m in Sources */,
 				A435D84E245AD04B0059FA1B /* NSArray+Log.m in Sources */,
 				A435D84B245AD04B0059FA1B /* UILabel+Extension.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

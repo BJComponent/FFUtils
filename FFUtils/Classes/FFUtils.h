@@ -19,5 +19,8 @@
 
 #import "FFHelper.h"
 
+#import "FFAuthorListReformerKeys.h"
+#import "FFSpecialListReformerKeys.h"
+
 
 #endif /* FFUtils_h */
