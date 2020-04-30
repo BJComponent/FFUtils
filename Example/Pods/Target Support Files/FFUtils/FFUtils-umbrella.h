@@ -17,6 +17,7 @@
 #import "UIView+FFFrame.h"
 #import "FFConst.h"
 #import "FFUtils.h"
+#import "FFHelper.h"
 
 FOUNDATION_EXPORT double FFUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char FFUtilsVersionString[];
