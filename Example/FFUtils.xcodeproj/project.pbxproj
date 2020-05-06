@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4178CAD2462AC8100DB6A98 /* UIImage+FFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CAC2462AC8100DB6A98 /* UIImage+FFImage.m */; };
 		A435D84A245AD04B0059FA1B /* UIView+FFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D840245AD04B0059FA1B /* UIView+FFFrame.m */; };
 		A435D84B245AD04B0059FA1B /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D841245AD04B0059FA1B /* UILabel+Extension.m */; };
 		A435D84C245AD04B0059FA1B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D842245AD04B0059FA1B /* UIColor+Hex.m */; };
@@ -74,6 +75,8 @@
 		775DAE56B66E3061E5F7D230 /* Pods_FFUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97D7BB2FEB9254AA117EB295 /* Pods-FFUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFUtils_Example/Pods-FFUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A4178CAB2462AC8100DB6A98 /* UIImage+FFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FFImage.h"; sourceTree = "<group>"; };
+		A4178CAC2462AC8100DB6A98 /* UIImage+FFImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FFImage.m"; sourceTree = "<group>"; };
 		A435D840245AD04B0059FA1B /* UIView+FFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFrame.m"; sourceTree = "<group>"; };
 		A435D841245AD04B0059FA1B /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		A435D842245AD04B0059FA1B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
@@ -256,6 +259,8 @@
 				A435D842245AD04B0059FA1B /* UIColor+Hex.m */,
 				A435D844245AD04B0059FA1B /* NSArray+Log.h */,
 				A435D849245AD04B0059FA1B /* NSArray+Log.m */,
+				A4178CAB2462AC8100DB6A98 /* UIImage+FFImage.h */,
+				A4178CAC2462AC8100DB6A98 /* UIImage+FFImage.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 				A435D84C245AD04B0059FA1B /* UIColor+Hex.m in Sources */,
 				A435D84D245AD04B0059FA1B /* UIButton+Extension.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
+				A4178CAD2462AC8100DB6A98 /* UIImage+FFImage.m in Sources */,
 				A435D84A245AD04B0059FA1B /* UIView+FFFrame.m in Sources */,
 				A435D85A245AD6280059FA1B /* FFHelper.m in Sources */,
 				A435D872245ADD490059FA1B /* FFAuthorListReformerKeys.m in Sources */,

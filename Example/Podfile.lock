@@ -1,5 +1,5 @@
 PODS:
-  - FFUtils (0.1.3)
+  - FFUtils (0.1.4)
 
 DEPENDENCIES:
   - FFUtils (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 84c26687101a0f9f9d6022831c07639332e9749a
+  FFUtils: 658e3899a2ad8f1390597ae34eabb686e52f4e62
 
 PODFILE CHECKSUM: c5acbeb1a1504bf36b1c9d6a642099877e0a17bb
 
