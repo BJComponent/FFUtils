@@ -1,5 +1,13 @@
 PODS:
-  - FFUtils (0.1.4)
+  - FFUtils (0.1.5):
+    - FFUtils/Category (= 0.1.5)
+    - FFUtils/Configs (= 0.1.5)
+    - FFUtils/ReformerKeys (= 0.1.5)
+    - FFUtils/Tools (= 0.1.5)
+  - FFUtils/Category (0.1.5)
+  - FFUtils/Configs (0.1.5)
+  - FFUtils/ReformerKeys (0.1.5)
+  - FFUtils/Tools (0.1.5)
 
 DEPENDENCIES:
   - FFUtils (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFUtils: 658e3899a2ad8f1390597ae34eabb686e52f4e62
+  FFUtils: 8ef13bdc5d4cebd2228d9c7a5b4f4c10865df094
 
 PODFILE CHECKSUM: c5acbeb1a1504bf36b1c9d6a642099877e0a17bb
 
